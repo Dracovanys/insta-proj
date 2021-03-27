@@ -1,0 +1,78 @@
+* {	
+	box-sizing: border-box;
+	font-family: sans-serif;
+	
+}
+
+body {
+	padding: 0px;
+	margin: 0px;	
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	position:absolute;
+	transform: translate(-50%, -50%);
+}
+ 
+.login-box {
+	text-align:center;
+	max-width: 300px;
+	padding: 20px;
+	display: block;	
+	border: solid 1px #ccc;
+	border-radius: 18px;
+}
+
+.login-box img {
+	margin-top: 24px;
+	margin-bottom: 12px;
+	
+	width: 150px;
+	height: auto;
+}
+
+.login-form {
+	text-align: left;
+}
+
+.label-field {
+	margin: 12px 0;	
+}
+
+.input-field {
+	margin: 12px 0;
+	width: 100%;
+	height: 35px;
+	
+	padding: 0 12px;
+	border: solid 1px #ccc;
+	border-radius: 20px;	
+}
+
+.input-field:focus {
+	outline: 0;	
+}
+
+.login-button {
+	margin: 12px 0;
+	width: 100%;
+	padding: 8px;
+	border: solid 1px #ccc;
+	border-radius: 18px;
+	text-align: center;
+}
+
+.imag-exem {
+	max-width: 500px;
+	height: auto;
+}
+
+.imag-exem img {
+	width: 100%;
+	height: auto;
+}
