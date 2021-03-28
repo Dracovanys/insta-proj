@@ -1,8 +1,15 @@
-* {	
-	box-sizing: border-box;
-	font-family: sans-serif;
+@font-face {
+	font-family: roboto;
+	src: url(fonts/Roboto-Light.ttf)
 	
 }
+
+
+* {	
+	box-sizing: border-box;	
+	font-family: roboto;	
+}
+
 
 body {
 	padding: 0px;
@@ -18,6 +25,22 @@ body {
 	position:absolute;
 	transform: translate(-50%, -50%);
 }
+
+.imag-exem {
+	width: auto;
+	max-height: 100%;
+}
+
+.imag-exem img {
+	width: 100%;
+	height: auto;
+}
+
+.login-section {
+	display: block;	
+	justify-content: center;
+	
+}
  
 .login-box {
 	text-align:center;
@@ -25,7 +48,18 @@ body {
 	padding: 20px;
 	display: block;	
 	border: solid 1px #ccc;
-	border-radius: 18px;
+	margin: 0 6px;
+}
+
+#create-acc {
+	display: flex;
+	margin: 6px 6px;
+	font-size: 13px;
+	justify-content: center;
+}
+
+#create-acc a, p {
+	margin: 0 2px;
 }
 
 .login-box img {
@@ -41,11 +75,12 @@ body {
 }
 
 .label-field {
-	margin: 12px 0;	
+	font-size: 14px;
 }
 
 .input-field {
-	margin: 12px 0;
+	margin-bottom: 12px;
+	margin-top: 4px;
 	width: 100%;
 	height: 35px;
 	
@@ -67,12 +102,52 @@ body {
 	text-align: center;
 }
 
-.imag-exem {
-	max-width: 500px;
-	height: auto;
+.line-splitter {
+	width: 50%;
+	background-color: #ccc;
+	height: 1px;
+	top: .45em;
+	position: relative;
 }
 
-.imag-exem img {
-	width: 100%;
+.enter-fb {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	padding: 20px;
+}
+
+.enter-fb img {
+	width: auto;
+	height: 28px;
+	margin: 0 4px;
+}
+
+.enter-fb a {
+	text-decoration: none;
+	margin: 0 4px;
+	color: #385185;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.getapp {	
+	text-align: center;	
+}
+
+
+.get-app-buttons {
+	display:flex;
+	max-width: 100%;
 	height: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.get-app-buttons img {
+	width: 150px;
+	height: auto;	
+	margin: 0 3px;
+	
 }

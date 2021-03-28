@@ -6,26 +6,61 @@
 		<title>Instaclone</title>
 	</head>
 	<body>
+	
 		<!-- Aqui vão ficar todos os elementos da página -->
 		<div class="main-content">
+		
 			<!-- Aqui vão ficar os elementos para organização das imagens -->
 			<div class="imag-exem">			
 				<img src="img/instagram-celular.png" alt="Foto do Instagram em um celular">
-			</div>
-					
-			<!-- Aqui vão ficar os elementos da caixa de login -->
-			<div class="login-box">
-				<img src="img/instagram-logo.png" alt="Logo do Instagram">
-				
-				<form action="index.html" method="post" class="login-form">
-					<label class="label-field">Username</label>
-					<input type="text" class="input-field">
-					<label class="label-field">Password</label>
-					<input type="password" class="input-field">
-					<input type="submit" value="Login" class="login-button">
-				</form>
-			
 			</div>	
+			
+			<!-- Aqui vão ficar os elementos do "Get the App!" e "Login" -->
+			<div class="login-section">
+			
+				<!-- Aqui vão ficar os elementos da caixa de login -->
+				<div class="login-box">
+					<img src="img/instagram-logo.png" alt="Logo do Instagram">					
+					<form action="index.html" method="post" class="login-form">
+						<input type="text" placeholder="Phone number, username or email" class="input-field">
+						<input type="password" placeholder="Password" class="input-field">
+						<input type="submit" value="Login" class="login-button">
+					</form>	
+					
+					<!-- ------Ou------ -->
+					<div style="display: flex; justify-content: center; margin: 10px 0;">
+						<div class="line-splitter"></div>
+						<p style="margin: 0 18px; font-weight: bold; font-size: 12px; color: #BFBFBF;">OU</p>
+						<div class="line-splitter"></div>					
+					</div>
+					
+					<!-- "Entrar com o facebook" -->
+					<div class="enter-fb">
+						<img src="img/logo-facebook.png" alt="Logo do Facebook">
+						<a href="#">Entrar com o Facebook</a>
+					</div>
+					
+					
+				</div>	
+				
+				<!-- Aqui vão ficar os elementos da caixa "Create an account" -->
+				<div class="login-box" id="create-acc">				
+					<p>Não possui uma conta?</p>
+					<a href="#" style="text-decoration: none;">Cadastre-se!</a>				
+				</div>
+				
+				<!-- Aqui vão ficar os elementos da caixa "Get the App!" -->
+				<div class="getapp">
+					<h3>Get the App!<h3>
+					
+					<div class="get-app-buttons">
+						<a href="https://apps.apple.com/br/app/instagram/id389801252" target="_blank"><img src="img/apple-button.png" alt="Botão para a App Store"></a>
+						<a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR&gl=US" target="_blank"><img src="img/googleplay-button.png" alt="Botão para a Play Store"></a>				
+					</div>
+				
+				</div>
+				
+			</div>
 		</div>
 	</body>	
 </html>
